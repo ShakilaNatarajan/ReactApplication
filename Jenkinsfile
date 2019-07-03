@@ -6,11 +6,11 @@ pipeline {
         bat 'npm install'
       }
     }
-    stage('Jest') {
-      steps {
-        bat 'npm test a'
-      }
-    }
+   // stage('Jest') {
+  //    steps {
+  //      bat 'npm test a'
+ //     }
+ //   }
     stage('Coverage') {
       steps {
         bat 'npm run test:coverage'
