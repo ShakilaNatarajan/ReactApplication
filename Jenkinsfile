@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Jest') {
       steps {
-        bat 'npm run test'
+        bat 'npm test a'
       }
     }
     stage('Coverage') {
