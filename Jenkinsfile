@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Coverage') {
       steps {
-        bat 'npm react-scripts test'
+        bat 'npm test'
       }
     }
   }
