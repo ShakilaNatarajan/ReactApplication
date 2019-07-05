@@ -1,11 +1,6 @@
 pipeline {
   agent any
   stages {
-    stage('Start') {
-      steps {
-        echo 'message'
-      }
-    }
     stage('Coverage') {
       steps {
         bat 'npm react-scripts test --env=jsdom --coverage'
