@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Coverage') {
       steps {
-        bat 'npm run test:coverage'
+        bat 'npm test'
       }
     }
   }
