@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Coverage') {
       steps {
-        sh 'npm test'
+        bat 'npm react-scripts test --env=jsdom --coverage'
       }
     }
   }
