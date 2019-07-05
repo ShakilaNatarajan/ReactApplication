@@ -10,7 +10,4 @@ pipeline {
   tools {
     nodejs 'node'
   }
-  environment {
-    PATH = 'C:\\Program Files\\Git\\usr\\bin'
-  }
 }
