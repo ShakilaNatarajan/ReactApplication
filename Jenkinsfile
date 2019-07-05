@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Coverage') {
       steps {
-        echo 'test message'
+        bat 'npm test -- --coverage'
       }
     }
   }
