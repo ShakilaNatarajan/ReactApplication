@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Coverage') {
       steps {
-        bat 'npm react-scripts test --env=jsdom --coverage'
+        bat 'npm react-scripts test'
       }
     }
   }
