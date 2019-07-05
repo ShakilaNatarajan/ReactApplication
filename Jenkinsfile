@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Start') {
       steps {
-        sh 'npm install'
+        echo 'message'
       }
     }
     stage('Coverage') {
