@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('Start') {
       steps {
-        bat 'npm install'
+        sh 'npm install'
       }
     }
     stage('Coverage') {
       steps {
-        bat 'npm test -- --coverage'
+        sh 'npm test'
       }
     }
   }
