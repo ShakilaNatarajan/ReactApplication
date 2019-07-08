@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-   "test": "jest --coverage --coverageDirectory=output/coverage/jest"
+   "test": "jest --coverage --coverageDirectory=output/coverage/jest",
     "test:update": "react-scripts test --updateSnapshot",
     "test:coverage": "react-scripts test --coverage",
     "eject": "react-scripts eject"
