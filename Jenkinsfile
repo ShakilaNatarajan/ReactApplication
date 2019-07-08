@@ -16,6 +16,6 @@ pipeline {
     nodejs 'node'
   }
   triggers {
-    cron('* * * * *')
+    cron('H * * * *')
   }
 }
