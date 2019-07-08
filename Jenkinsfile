@@ -16,8 +16,6 @@ pipeline {
     nodejs 'node'
   }
   triggers {
-    pollSCM('H/10 * * * *')
+    pollSCM('* * * * *')
   }
 }
-
-
