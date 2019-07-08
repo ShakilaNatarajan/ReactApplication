@@ -15,4 +15,7 @@ pipeline {
   tools {
     nodejs 'node'
   }
+  triggers {
+    cron('* * * * *')
+  }
 }
