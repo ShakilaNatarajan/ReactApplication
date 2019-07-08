@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Coverage') {
       steps {
-        bat 'npm test a'
+        bat 'npm test a --forceExit'
       }
     }
   }
