@@ -15,7 +15,7 @@ pipeline {
   tools {
     nodejs 'node'
   }
-  triggers {
-    cron('H * * * *')
-  }
+   triggers {
+        pollSCM 'H/10 * * * *'
+    }
 }
