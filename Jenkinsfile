@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Coverage') {
       steps {
-        bat 'npm test'
+        bat 'npm test a'
       }
     }
   }
